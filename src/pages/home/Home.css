@@ -1,0 +1,26 @@
+.music-title {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: linear-gradient(90deg, #168BAF 0%, #DC2106 7.76%);
+ 
+}
+
+.music-title-dec {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    letter-spacing: 0%;
+
+}
+
+.music-title-music {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
