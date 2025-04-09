@@ -1,0 +1,83 @@
+import React from "react";
+
+// Custom Icon Component
+const MusicIcon = () => (
+  <svg
+    width="135"
+    height="135"
+    viewBox="0 0 135 135"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_445_2518)">
+      <rect
+        x="35.5"
+        y="19"
+        width="64"
+        height="64"
+        rx="16.8263"
+        fill="#DC2106"
+      />
+      <path
+        d="M63.5 59V41.6667L79.5 39V56.3333"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M59.5 63C61.7091 63 63.5 61.2091 63.5 59C63.5 56.7909 61.7091 55 59.5 55C57.2909 55 55.5 56.7909 55.5 59C55.5 61.2091 57.2909 63 59.5 63Z"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M75.5 60.332C77.7091 60.332 79.5 58.5412 79.5 56.332C79.5 54.1229 77.7091 52.332 75.5 52.332C73.2909 52.332 71.5 54.1229 71.5 56.332C71.5 58.5412 73.2909 60.332 75.5 60.332Z"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_445_2518"
+        x="0.445229"
+        y="0.771519"
+        width="134.11"
+        height="134.11"
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset dy="16.8263" />
+        <feGaussianBlur stdDeviation="17.5274" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0.0509804 0 0 0 0 0.0470588 0 0 0 0 0.219608 0 0 0 0.15 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_445_2518"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_445_2518"
+          result="shape"
+        />
+      </filter>
+    </defs>
+  </svg>
+);
+
+export default MusicIcon;
